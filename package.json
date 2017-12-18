@@ -1,0 +1,44 @@
+{
+  "name": "cli-test",
+  "version": "0.0.1",
+  "description": "Cli for test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4pmtong/cli-test"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "tongChen",
+  "main": "bin/cli-test.js",
+  "bin": {
+    "test": "bin/cli-test.js"
+  },
+  "preferGlobal": true,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4pmtong/cli-test/issues"
+  },
+  "homepage": "https://github.com/4pmtong/cli-test",
+  "dependencies": {
+    "async": "2.5.0",
+    "chalk": "2.1.0",
+    "command-exists": "1.2.2",
+    "commander": "2.11.0",
+    "cross-spawn": "5.1.0",
+    "deasync": "0.1.10",
+    "download-git-repo": "1.0.1",
+    "ejs": "2.5.7",
+    "fs-extra": "4.0.2",
+    "globby": "6.1.0",
+    "inquirer": "3.3.0",
+    "progress": "2.0.0",
+    "user-home": "2.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.0.1",
+    "eslint": "4.9.0",
+    "eslint-config-airbnb-base": "12.0.2",
+    "eslint-plugin-import": "2.7.0"
+  }
+}
