@@ -1,6 +1,6 @@
 /**
  * @desc: eslint代码校验配置，大部分使用airbnb的校验规则
- * @author: wenkang_lin
+ * @author: 4pmtong
  * @ref: https://github.com/airbnb/javascript
  */
 
